@@ -1,0 +1,55 @@
+mat-toolbar{
+  background-color: whitesmoke;
+}
+.sidenav-container {
+
+  height: 100%;
+
+}
+
+.sidenav {
+  width: 200px;
+justify-content: space-between;
+
+
+}
+
+.sidenav .mat-toolbar {
+
+  background-color:whitesmoke;
+
+
+}
+
+.mat-toolbar.mat-primary {
+
+  top: 0;
+  z-index: 1;
+}
+
+.hidden{
+  .sidenav{
+    display:none;
+  }
+
+}
+#logo{
+  color: white;
+  text-shadow: 2px 2px 4px  black;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+sup{
+  font-size:.7rem;
+  color:black;
+  text-shadow: none;
+  height: .2;
+}
+.spacer{
+  flex-grow: 1;
+}
+
+mat-icon{
+  color: black;
+}
+

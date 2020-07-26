@@ -1,0 +1,48 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.spacer{
+  flex-grow: 1;
+}
+
+#iconMenu{
+  color: rgb(245, 11, 11);
+  margin-left: auto;
+}
+
+mat-toolbar{
+  margin-top: auto;
+  background-color: white;
+  color: darkred;
+}
+#burger{
+  color: darkred;
+}
+
+button{
+  color:gray;
+  margin-left: 1rem;
+  background-color: white;
+}
+
+@media (max-width: 960px){
+  #menuButton{
+    display:none;
+  }
+  }

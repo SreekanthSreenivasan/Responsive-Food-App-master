@@ -1,0 +1,49 @@
+
+
+  .footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+  };
+
+span{
+  padding-top: 2rem;
+  font-size: small;
+  display: flex;
+  color: red;
+  margin-left: 34%;
+  padding-bottom: 2rem;
+}
+
+
+@media (max-width:960px)
+{
+.footer{
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+
+}
+
+span{
+
+  display: flex;
+  padding-top: 0rem;
+  font-size: 10px;
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 0;
+  color: darkmagenta;
+
+}
+}
