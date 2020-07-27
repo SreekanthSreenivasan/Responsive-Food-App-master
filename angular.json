@@ -90,7 +90,9 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/icons8-monitor-64.png",
+              "src/assets",
+              "src/assets/favicon.ico"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
